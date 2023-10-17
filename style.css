@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;    
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+}
+
+.back img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+}
+
+.top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(136, 115, 115, 0.616); */
+    /* background-color: black; */
+}
+
+.workarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1400px;
+    height: 100vh;
+    /* background-color: rgb(212, 69, 69); */
+    /* background-color: black;
+    border: 1px solid red; */
+}
+
+.nav{
+    pointer-events: all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navLeft, .navRight{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navLeft img{
+    width: 9vw;
+    height: 4vw;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: lightcoral; */
+}
+
+.contLeft{
+    min-width: 50%;
+    /* height: 100%; */
+    /* background-color: yellow; */
+}
+
+.contLeft .elem{
+    height: 6vw;
+    /* background-color: red; */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.contLeft .elem h1:nth-child(1){
+    top: 0;
+}
+
+.contLeft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 1;
+    font-size: 5vw;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#butt1{
+    pointer-events: all;
+    margin-top: 1vw;
+    font-size: 2vw;
+    padding: 0.5rem 1rem;
+}
+
+.contRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    /* height: 100%; */
+    /* background-color: red; */
+    color: white;
+}
+
+.contRight img{
+    background-color: #fff;
+    width: 100%;
+    height: 20vh;
+    margin: 0.7rem 0 0.7rem 0;
+}
+
+.contRight p{
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-align: right;
+}
