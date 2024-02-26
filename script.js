@@ -1,18 +1,26 @@
-// const backgrounds = [
-//     "images/img_01.JPG",
-//     "images/img_03.JPG",
-//     "images/img_04.JPG",
-//     "images/img_02.JPG",
-// ];
-// const back = document.querySelector("#back");
-// let currentBackgroundIndex = 0;
-// // console.log(back);
-// back.addEventListener("click", ()=>{
-//     gsap.to('body', {
-//         backgroundImage: backgrounds[currentBackgroundIndex]
+// const back = document.querySelectorAll(".back");
+// back.forEach(function(e){
+//     var imgs = e.querySelectorAll("img");
+//     var j = 0;
+//     document.querySelector(".main").addEventListener("click", ()=>{
+//         gsap.to(imgs[j], {
+//             top:"-=100%",
+//             ease: Expo.easeInOut,
+//             duration: 1,
+//             onComplete: function () {
+//                 gsap.set(this._targets[0], {top: "100%"})
+//             },
+//         });
+//         j === imgs.length-1 ? (j = 0) : j++;
+
+//         gsap.to(imgs[j], {
+//             top: "-=100%",
+//             ease: Expo.easeInOut,
+//             duration: 1,
+//         });
 //     });
-//     currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
 // });
+
 
 
 const elem = document.querySelectorAll(".elem");
