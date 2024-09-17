@@ -1,5 +1,5 @@
 # 💫 About Me:
-This is a text editor which can be used for text editing. It is made from react, bootstrap and vite. You can visit this site at https://text-editor-gold-nine.vercel.app/ .
+This is a modern website landing page with great animations and effects coded with pure HTML, CSS and vanilla JS. It also contains GSAP for some effects. You can visit this website on https://usmandevcraft.github.io/Modern-Website-Landing-Page/ .
 
 
 ## 🌐 Socials:
